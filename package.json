@@ -1,0 +1,23 @@
+{
+  "name": "portfo",
+  "version": "1.0.0",
+  "description": "personal web portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javasmuse/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "candace"
+  ],
+  "author": "Candace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javasmuse/portfolio/issues"
+  },
+  "homepage": "https://github.com/javasmuse/portfolio#readme"
+}
