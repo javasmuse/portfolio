@@ -119,12 +119,11 @@ img {
   color: #fff;
   text-transform: uppercase;
   border-radius: 5%;
-  border: 2px solid darkgrey;
 }
 
 #main-nav {
   display: flex;
-  align-content: space-between;
+  justify-content: space-between;
   padding-top: 1rem;
 }
 #main-nav ul {
@@ -151,20 +150,20 @@ img {
 
 #header-home {
   background: url("/dist/image/showcase.JPG") no-repeat center right/cover;
-  height: 42vh;
+  height: 38vh;
   align-items: center;
   color: #744812;
 }
 #header .header-content .lead {
   text-align: center;
-  padding-top: 20%;
+  padding-top: 10%;
 }
 #header .header-content .lead h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1.2;
 }
 #home-a .specials {
-  margin-top: 0.4rem;
+  margin-top: 1rem;
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(4, 1fr);
@@ -181,14 +180,14 @@ img {
   line-height: 2;
 }
 #home-b .stats li.stats-title {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 #home-b .stats li.stats-number {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: bold;
 }
 #home-b .stats div {
-  padding: 1rem 0;
+  padding: 3rem 0;
 }
 #home-b .stats div:nth-child(odd) {
   background: #f4f4f4;
@@ -223,7 +222,7 @@ img {
   padding: 2rem;
   width: 70px;
   height: 70px;
-  line-height: 10px;
+  line-height: 70px;
   text-align: center;
   position: relative;
   transition: all 1s;
