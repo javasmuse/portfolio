@@ -151,7 +151,7 @@ img {
 
 #header-home {
   background: url("/dist/image/showcase.JPG") no-repeat center right/cover;
-  height: 100vh;
+  height: 42vh;
   align-items: center;
   color: #744812;
 }
@@ -160,11 +160,11 @@ img {
   padding-top: 20%;
 }
 #header .header-content .lead h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 1.2;
 }
 #home-a .specials {
-  margin-top: 3rem;
+  margin-top: 0.4rem;
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(4, 1fr);
@@ -188,7 +188,7 @@ img {
   font-weight: bold;
 }
 #home-b .stats div {
-  padding: 3rem 0;
+  padding: 1rem 0;
 }
 #home-b .stats div:nth-child(odd) {
   background: #f4f4f4;
@@ -223,7 +223,7 @@ img {
   padding: 2rem;
   width: 70px;
   height: 70px;
-  line-height: 70px;
+  line-height: 10px;
   text-align: center;
   position: relative;
   transition: all 1s;
