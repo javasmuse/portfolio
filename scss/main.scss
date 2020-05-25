@@ -64,6 +64,7 @@ img {
     border-bottom: 3px transparent solid;
     padding-bottom: 0.5rem;
     transition: border-color 0.5s;
+    ;
 
     &:hover {
       border-color: $medium-color;
@@ -81,7 +82,7 @@ img {
   // Header Home
   &-home {
     background: $bg-image no-repeat center right / cover;
-    height: 100vh;
+    height: 42vh;
     align-items: center;
     color: $dark-color;
   }
@@ -92,9 +93,10 @@ img {
     padding-top: 20%;
 
     h1 {
-      font-size: 4rem;
+      font-size: 3rem;
       line-height: 1.2;
     }
+
   }
 
   // Header Inner
@@ -104,10 +106,11 @@ img {
 // Home Sections
 #home {
 
+
   // Home Section A
   &-a {
     .specials {
-      margin-top: 3rem;
+      margin-top: .4rem;
       display: grid;
       grid-gap: 1rem;
       grid-template-columns: repeat(4, 1fr);
@@ -139,7 +142,7 @@ img {
       }
 
       div {
-        padding: 3rem 0;
+        padding: 1rem 0;
 
         &:nth-child(odd) {
           background: $light-color;
@@ -184,7 +187,7 @@ img {
         padding: 2rem;
         width: 70px;
         height: 70px;
-        line-height: 70px;
+        line-height: 10px;
         text-align: center;
         position: relative;
         transition: all 1s;
